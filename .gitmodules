@@ -1,0 +1,3 @@
+[submodule "JMJ-Ecommerce"]
+	path = JMJ-Ecommerce
+	url = https://github.com/madanprem/JMJ-Ecommerce.git
