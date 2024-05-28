@@ -1,25 +1,22 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ignore node_modules directories
+/client/node_modules/
+/node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-# Ignore node_modules directory
-/client/node_modules
-
-# testing
-/coverage
-
-# production
+# Ignore build output
 /build
 
-# misc
-.DS_Store
+# Ignore coverage output
+/coverage
+
+# Ignore environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Miscellaneous
+.DS_Store
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
